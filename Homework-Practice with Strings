@@ -1,0 +1,36 @@
+public class Practise {
+    public static void main(String[] args) {
+ // 1) Using the string "Learn string handling": what index is the last letter in the string?
+        var a=  "Learn string handling";
+        //var b= "Learn string handling";
+        System.out.println("last character: " + a.substring(a.length()-1));
+        
+// 2) Using the same string as above, what character is located at the 10th index?
+        var ch1 = a.charAt(10);
+        System.out.println("Character at the 10th index: " + ch1);
+        
+// 3)Do a check to see if the character at index 10 and 15 the same?
+       boolean bool= true;
+              var ch10 = a.charAt(10);
+        var ch15 = a.charAt(15);
+        
+        if(ch10==ch15){
+           System.out.println( bool);
+       }
+      else{
+            System.out.println(!bool);
+       }
+        
+// 4) Create a scenario that returns false if the character at the 0 index equals the 5 index        
+        var ch0= a.charAt(0);
+        var ch5=a.charAt(5);
+        boolean bool= true;
+      
+      if(ch0==ch5){
+          System.out.println(bool);
+      }
+      else{
+            System.out.println(!bool);
+      }
+
+    }}
