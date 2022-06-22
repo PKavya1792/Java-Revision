@@ -1,0 +1,71 @@
+//length()
+
+        var k= "Learn string handling";
+        System.out.println(k.length());
+
+//equals()
+        var k= "Learn string handling";
+        var l= "Learn string";
+        if(k.equals(l)){
+            System.out.println("Equals");
+        }
+        else{
+            System.out.println("Not equals"); }
+        
+ //equalsIgnoreCase()
+        var k= "Learn string handling";
+        var l= "LEARN STRING HANDLING";
+          if(k.equalsIgnoreCase(l)){
+            System.out.println("Equals");
+        }
+        else{
+            System.out.println("Not equals");
+        }
+ 
+  //charAt()
+        var ch1 = a.charAt(10);
+        System.out.println("Character at the 10th index: " + ch1);
+        
+ //contains()
+        boolean bool= true;
+        var k="Learn string handling";
+        if(k.contains("ing"))
+        System.out.println(bool);
+        else{
+            System.out.println(!bool);
+        }
+        
+//substring()
+        var a="Learn string handling";
+        System.out.println("last character: " + a.substring(a.length()-1));
+        
+//startsWith
+        var k="Learn string handling";
+        if(k.startsWith("l") ){
+        System.out.println(bool);
+        }
+        else{
+        System.out.println(!bool);
+        }
+        
+        
+//endsWith
+        var k="Learn string handling";
+        if(k.endsWith("g") ){
+            System.out.println(bool);
+        }
+        else{
+            System.out.println(!bool);
+        }
+        
+        
+//toLowerCase()
+        var d = "HAPPY BIRTHDAY MOM!";
+        System.out.println(d.toLowerCase());
+
+//toUpperCase()
+        var d = "happy birthday mom!";
+        System.out.println(d.toUpperCase());
+    }
+    
+    
